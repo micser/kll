@@ -1,0 +1,90 @@
+Name = minitel20shift;
+Version = 0.1;
+Author = "Michael Serisier 2016";
+KLL = 0.3d;
+
+# Modified Date
+Date = 2016-11-02;
+
+# Row 1
+S0x3F : None; # Connexion/Fin
+S0x25 : '^'; # Sommaire
+S0x28 : '\'; # Annulation
+S0x13 : U"Quote"; # Retour
+S0x03 : '{'; # Repetition
+
+# Row 2
+S0x3E : None; # Fnct
+S0x3D : None; # Guide
+S0x30 : None; # Correction
+S0x1B : '`'; # Suite
+S0x0B : '}'; # Envoi
+
+# Row 3
+S0x33 : None; # Esc
+S0x2B : '<'; # Comma
+S0x3B : '>'; # Period
+S0x23 : '@'; # Semicolon
+S0x19 : '='; # Minus #FIXME
+S0x11 : U"="; # Colon
+S0x09 : U"Keypad Asterisk"; # Apostrophe
+S0x01 : U"Slash"; # Enter
+
+# Row 4
+S0x2D : U"Shift" + U"Q"; # Q
+S0x35 : U"Shift" + U"W"; # W
+S0x31 : U"Shift" + U"E"; # E
+S0x29 : U"Shift" + U"R"; # R
+S0x39 : U"Shift" + U"T"; # T
+S0x21 : U"Shift" + U"Y"; # Y
+S0x1D : U"Shift" + U"U"; # U #FIXME
+S0x15 : U"Shift" + U"I"; # I
+S0xD : U"Shift" + U"O"; # O
+S0x5 : U"Shift" + U"P"; # P
+
+
+# Row 5
+S0x26 : U"LAlt"; # Control
+S0x2E : U"Shift" + U"A"; # A
+S0x36 : U"Shift" + U"S"; # S
+S0x32 : U"Shift" + U"D"; # D
+S0x2A : U"Shift" + U"F"; # F
+S0x3A : U"Shift" + U"G"; # G
+S0x22 : U"Shift" + U"H"; # H
+S0x1E : U"Shift" + U"J"; # J
+S0x16 : U"Shift" + U"K"; # K
+S0xE : U"Shift" + U"L"; # L
+S0x6 : U"Shift" + U"M"; # M
+
+
+# Row 6
+S0x18 : None; # Shift
+S0x2F : U"Shift" + U"Z"; # Z
+S0x37 : U"Shift" + U"X"; # X
+S0x34 : U"Shift" + U"C"; # C
+S0x2C : U"Shift" + U"V"; # V
+S0x3C : U"Shift" + U"B"; # B
+S0x24 : U"Shift" + U"N"; # N
+S0x18 : None; # Shift
+S0x0 : None; # Question Mark
+
+# Row 7
+S0x38 : U"PageUp"; # Up arrow
+S0x20 : U"PageDown"; # Down arrow
+S0x27 : U"Shift" + U"Space"; # Space
+S0x10 : U"Home"; # Left arrow
+S0x8 : U"End"; # Right arrow
+
+# Keypad
+S0x2 : '!'; # 1
+S0x4 : '"'; # 2
+S0x7 : '#'; # 3
+S0xA : '$'; # 4
+S0xC : '%'; # 5
+S0xF : '&'; # 6
+S0x12 : U"Quote"; # 7
+S0x14 : '('; # 8
+S0x17 : ')'; # 9
+S0x1A : None; # * #FIXME
+S0x1C : U"Home"; # 0
+S0x1F : None; # # #FIXME
