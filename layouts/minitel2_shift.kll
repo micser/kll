@@ -1,10 +1,10 @@
-Name = minitel20shift;
+Name = minitel2_shift;
 Version = 0.1;
 Author = "Michael Serisier 2016";
 KLL = 0.3d;
 
 # Modified Date
-Date = 2016-11-02;
+Date = 2016-11-04;
 
 # Row 1
 S0x3F : None; # Connexion/Fin
@@ -14,7 +14,7 @@ S0x13 : U"Quote"; # Retour
 S0x03 : '{'; # Repetition
 
 # Row 2
-S0x3E : None; # Fnct
+#S0x3E : None; # Fnct
 S0x3D : None; # Guide
 S0x30 : None; # Correction
 S0x1B : '`'; # Suite
